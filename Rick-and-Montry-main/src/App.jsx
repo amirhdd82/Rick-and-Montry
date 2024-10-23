@@ -53,6 +53,7 @@ function App() {
       </Navbar>
       <Main>
         <CharacterList
+          query={query} 
           selectedId={selectedId}
           characters={characters}
           isLoading={isLoading}
